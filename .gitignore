@@ -4,3 +4,7 @@ wp-config.php
 # themes
 wp-content/themes/ITConnect-UW-WP-Child/
 wp-content/themes/UW-Wordpress-Theme
+
+# sitemap
+sitemap.xml
+sitemap.xml.gz
