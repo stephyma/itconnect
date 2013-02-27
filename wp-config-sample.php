@@ -80,6 +80,12 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
+/**
+ * Security enhancements
+ */
+
+define('DISALLOW_FILE_EDIT', true);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
