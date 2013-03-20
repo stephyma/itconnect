@@ -1,4 +1,5 @@
 # config
+.htaccess
 wp-config.php
 
 # themes
