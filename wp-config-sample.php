@@ -85,6 +85,8 @@ define('WP_DEBUG', false);
  */
 
 define('DISALLOW_FILE_EDIT', true);
+#define('FORCE_SSL_ADMIN', true);
+#define('FORCE_SSL_LOGIN', true);
 
 /* That's all, stop editing! Happy blogging. */
 
