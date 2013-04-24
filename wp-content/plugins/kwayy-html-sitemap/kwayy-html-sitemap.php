@@ -3,7 +3,7 @@
 Plugin Name: Kwayy HTML Sitemap
 Plugin URI: http://www.kwayyinfotech.com/our-work/kwayy-html-sitemap/
 Description: Kwayy HTML Sitemap will generate HTML (not XML) sitemap for your sitemap page. The plugin will not only show Page and Posts but also your other Custom Post Type like Products etc. top. You can also configure to show or hide your Post Types. You just need to create a page for Sitemap and insert our shortcode <code>[kwayy-sitemap]</code> to display HTML sitemap. You can get support at http://forum.kwayyinfotech.com/
-Version: 3.0
+Version: 3.1
 Author: Kwayy Infotech
 Author URI: http://www.kwayyinfotech.com/
 License: GPL2
@@ -205,8 +205,7 @@ function kwayyhs_page(){
 					
 					
 					
-					
-					
+
 					
 					
 					
@@ -239,6 +238,40 @@ function kwayyhs_page(){
 								</div><!-- .submitbox -->
 							</div><!-- .inside -->
 						</div><!-- .postbox -->
+						
+						
+						<div class="postbox">
+							<h3 class='hndle'>Support Us</h3>
+							<div class="inside">
+								<div style="text-align:center;">
+								<h2>Buy our theme</h2>
+								<div id="creativemarket-product3691"></div>
+								<script>
+								var __creativemarket__ = {width: 195,height: 163,productID: 3691};
+								</script>
+								<script type="text/javascript" src="https://s3.amazonaws.com/static.creativemarket.com/js/embed/1/product.js"></script>
+								<p>We just released a new theme called "Colorised - Pro Wordpress Theme". You can purchase the theme from above link.</p>
+								</div>
+								
+								<ul style="list-style:disc; padding-left:40px;">
+									<li>Fully Responsive</li>
+									<li>HTML5 &nbsp; CSS3 &nbsp; jQuery</li>
+									<li>Parallax Slider</li>
+									<li>240+ Icons</li>
+									<li>SEO Optimized</li>
+									<li>and Many More...</li>
+								</ul>
+								<div style="text-align:center;">
+									<div id="buyoncm3691"></div>
+									<script>
+									var __creativemarket__ = {url: 'https://creativemarket.com/kwayy/3691-Colorised-Pro-Wordpress-Theme&utm_source=cmembed&utm_medium=button&utm_campaign=3691',text: 'Buy on Creative Market',productID: 3691};
+									</script>
+									<script type="text/javascript" src="https://s3.amazonaws.com/static.creativemarket.com/js/embed/1/button.js"></script>
+								</div>
+							</div><!-- .inside -->
+						</div><!-- .postbox -->
+						
+						
 					</div><!-- .postbox-container #postbox-container-1 -->
 					
 					

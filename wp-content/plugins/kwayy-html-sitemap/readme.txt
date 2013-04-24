@@ -54,6 +54,9 @@ You can start a new discussion on our official support forum at [forum.kwayyinfo
 
 == Changelog ==
 
+= 3.1 =
+* Small changes and added "Support Us" block on option page.
+
 = 3.0 =
 * Added support to change title of custom post type. (see screenshot-2 for details)
 
