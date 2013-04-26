@@ -31,7 +31,7 @@ Installation procedure:
 1. Deactivate plugin if you have the previous version installed.
 2. Extract "user-role-editor.zip" archive content to the "/wp-content/plugins/user-role-editor" directory.
 3. Activate "User Role Editor" plugin via 'Plugins' menu in WordPress admin menu. 
-4. Go to the "Settings"-"User Role Editor" menu item and change your WordPress standard roles capabilities according to your needs.
+4. Go to the "Users"-"User Role Editor" menu item and change your WordPress standard roles capabilities according to your needs.
 
 == Frequently Asked Questions ==
 - Does it work with WordPress 3.3 in multi-site environment?
@@ -56,7 +56,7 @@ To read more about 'User Role Editor' visit [this page](http://www.shinephp.com/
 
 = Translations =
 * Arabic: [Yaser](http://www.englize.com/)
-* Brasilian Portuguese: [Onbiz](http://www.onbiz.com.br/), [Rafael Galdencio](http://www.arquiteturailustrada.com.br)
+* Brasilian Portuguese: André Gama, [Onbiz](http://www.onbiz.com.br/), [Rafael Galdencio](http://www.arquiteturailustrada.com.br)
 * Dutch: [Frank Groeneveld](http://ivaldi.nl), [Rémi Bruggeman](http://www.remisan.be)
 * French: [Presse et Multimedia](http://presse-et-multimedia.fr/blog), [Whiler](http://blogs.wittwer.fr/whiler)
 * German: [Peter](http://www.becker-heidmann.de)
@@ -85,9 +85,18 @@ Share with me new ideas about plugin further development and link to your site w
 
 == Changelog ==
 
+= 3.11 =
+* 24.03.2013
+* Required WordPress version checking is moved to plugin activation hook.
+* Administrator can now exclude non-core (custom) capabilities from his role. It is useful if you need to fully remove some capability as capability deletion is prohibited while it is used at least one role.
+* bbPress compatibility issue is fixed: capabilities created by bbPress dinamically are excluded from the capabilities set in User Role Editor to not store them in the database as persistent WP roles data.
+* Additional roles are assigned to user without overriding her primary WordPress role and bbPress role.
+* Changing Wordpress user primary role at user profile doesn't clear additonal roles assigned with User Role Editor earlier.
+* Brasilian Portuguese translation is updated.
+
 = 3.10 =
 * 04.02.2013
-* You can assign to user multiple roles simultaneously. Use user roles and capabilities editor for that. You can click 'Capabilities' link under selected user row at users list or 'Assign Roles and Additional Capabilities' link at user profile.
+* You can assign to user multiple roles simultaneously. Use user level roles and capabilities editor for that. You can click 'Capabilities' link under selected user row at users list or 'Assign Roles and Additional Capabilities' link at user profile.
 * Critical bug fix: hidden deprecated WordPress core capabilities had turned on after any update made to the role. Deprecated capabilities are not currently in use by WordPress itself. But old plugins or themes could still use them. If you use some outdated code I recommend you to check all roles, you modified with User Role Editor, and turn off unneeded deprecated capabilities there.
 * User with Administrator role is secured better from editing, deletion by user with lower capabilities.
 
